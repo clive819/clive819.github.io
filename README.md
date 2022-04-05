@@ -1,13 +1,22 @@
 # Chun-Hao Liu
 _a.k.a. Clive Liu_
 
-_Currently pursuing my Master’s degree in Computer Science and Engineering. Experienced in the fields of **Computer Vision**, **Machine Learning**, and **iOS Development**._ <br>
+_iOS Engineer @ Audible._
+
+_Experienced in the fields of **Computer Vision**, **Machine Learning**, and **iOS Development**._ 
 
 [Email](mailto:clive819@gmail.com) / [Website](https://clive819.github.io/) / [LinkedIn](https://www.linkedin.com/in/clive819/) / [GitHub](https://github.com/clive819) 
 <br><br>
 
 ***
 ## 👨‍💻 Experiences
+
+**iOS Engineer (SDE I)** @[Audible, a subsidiary of Amazon](https://www.audible.com) <br>
+_(Jul 2021 - present)_ <br>
+
+- Advanced user experience by identifying and fixing accessibility and CarPlay bugs.
+- Created internal tools for monitoring and notifying for metrics.
+- Worked on a cross-functional team to build customer-facing features.
 
 **Internship in Artificial Intelligence** @[Industrial Technology Research Institute](https://www.itri.org.tw/english/index.aspx) <br>
 _(Jun 2020 - Aug 2020)_ <br>
