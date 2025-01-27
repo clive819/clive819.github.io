@@ -2,7 +2,7 @@
 title: 'Common SwiftUI Pitfalls - onChange modifier + Task'
 author: 'Clive Liu'
 layout: post
-tags: [swift, swiftui, concurrency]
+tags: [Swift, SwiftUI, Concurrency]
 ---
 
 When developing in SwiftUI, it is common to encounter scenarios where asynchronous tasks need to be executed upon specific state changes. It may be intuitive to implement the following:
