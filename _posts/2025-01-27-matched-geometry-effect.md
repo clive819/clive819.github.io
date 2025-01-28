@@ -40,7 +40,7 @@ struct MyView: View {
 
 ![](../assets/2025/01/matched-geometry-effect/branching-view-animation.gif)
 
-In an ideal setup, you would incorporate conditional logic within modifiers like `.frame(width: condition ? 100 : 50, height: condition ? 100 : 50)`, ensuring smooth animations. However, in certain cases, using branching views is unavoidable. Fortunately, we can utilize `.matchedGeometryEffect` to enable animations with branching views.
+In an ideal setup, you would incorporate conditional logic within modifiers like `.frame(width: condition ? 100 : 50, height: condition ? 100 : 50)`, ensuring smooth animations. However, in certain cases, branching logic is unavoidable. Fortunately, we can utilize `.matchedGeometryEffect` to enable animations with conditional views.
 
 ![](../assets/2025/01/matched-geometry-effect/branching-view-animation-fix.gif)
 
@@ -81,7 +81,7 @@ struct MyView: View {
 
 By adding just three lines of code, SwiftUI can interpolate the frame rectangles of views in the window space, creating the illusion of a single view transitioning from its old position to a new one. 
 
-When expanding the code, you'll notice that `.matchedGeometryEffect` offers other parameters, such as isSource, which we will focus on. In the above example, both views are marked as the source, as only one of them will be rendered regardless of the condition. Furthermore, `.matchedGeometryEffect` can be used to synchronize other views with the geometry of a source view. Let's take a segmented control for instance:
+When expanding the code, you'll notice that `.matchedGeometryEffect` offers other parameters, such as `isSource`, which we will focus on. In the above example, both views are marked as the source, as only one of them will be rendered regardless of the condition. Furthermore, `.matchedGeometryEffect` can be used to synchronize other views with the geometry of a source view. Let's take a segmented control for instance:
 
 | Normal                                                                       | Too many items                                                               |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
