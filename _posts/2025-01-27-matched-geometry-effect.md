@@ -83,9 +83,9 @@ By adding just three lines of code, SwiftUI can interpolate the frame rectangles
 
 When expanding the code, you'll notice that `.matchedGeometryEffect` offers other parameters, such as isSource, which we will focus on. In the above example, both views are marked as the source, as only one of them will be rendered regardless of the condition. Furthermore, `.matchedGeometryEffect` can be used to synchronize other views with the geometry of a source view. Let's take a segmented control for instance:
 
-Normal                     |  Too many items
-:-------------------------:|:-------------------------:
-![](../assets/2025/01/matched-geometry-effect/segmented-control-apple-4.gif)  |  ![](../assets/2025/01/matched-geometry-effect/segmented-control-apple-9.gif)
+| Normal                                                                       | Too many items                                                               |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![](../assets/2025/01/matched-geometry-effect/segmented-control-apple-4.gif) | ![](../assets/2025/01/matched-geometry-effect/segmented-control-apple-9.gif) |
 
 The segmented control exhibits a smooth animation when the selected item changes. However, issues arise when there are too many items to display, resulting in truncated text and the inability to scroll to view all options. Let's address this issue and emulate the selected animation. Here's a revised implementation:
 
@@ -135,8 +135,8 @@ struct MyView: View {
 }
 ```
 
-3 items                    |  9 items
-:-------------------------:|:-------------------------:
-![](../assets/2025/01/matched-geometry-effect/segmented-control-custom-3.gif)  |  ![](../assets/2025/01/matched-geometry-effect/segmented-control-custom-9.gif)
+| 3 items                                                                       | 9 items                                                                       |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![](../assets/2025/01/matched-geometry-effect/segmented-control-custom-3.gif) | ![](../assets/2025/01/matched-geometry-effect/segmented-control-custom-9.gif) |
 
 In this revised version, we specify the source of each option as the button, ensuring that the background matches the geometry of the selected item.
