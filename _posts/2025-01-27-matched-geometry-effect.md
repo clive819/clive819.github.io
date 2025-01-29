@@ -7,6 +7,8 @@ tags: [Swift, SwiftUI, Animation]
 
 Structural identity in SwiftUI refers to how the framework understands your view hierarchy and identifies specific views without explicit identifiers. I won't delve into the specifics here, but you can find more information by searching online. Essentially, when dealing with branched views, animations may not behave as expected. For example:
 
+![](../assets/2025/01/matched-geometry-effect/branching-view-animation.gif){:.left}
+
 ```swift
 struct MyView: View {
 
@@ -38,11 +40,11 @@ struct MyView: View {
 }
 ```
 
-![](../assets/2025/01/matched-geometry-effect/branching-view-animation.gif)
+
 
 In an ideal setup, you would incorporate conditional logic within modifiers like `.frame(width: condition ? 100 : 50, height: condition ? 100 : 50)`, ensuring smooth animations. However, in certain cases, branching logic is unavoidable. Fortunately, we can utilize `.matchedGeometryEffect` to enable animations with conditional views.
 
-![](../assets/2025/01/matched-geometry-effect/branching-view-animation-fix.gif)
+![](../assets/2025/01/matched-geometry-effect/branching-view-animation-fix.gif){:.left}
 
 ```swift
 struct MyView: View {
