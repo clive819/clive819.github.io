@@ -1,5 +1,5 @@
 ---
-title: 'Common SwiftUI Pitfalls - onChange modifier + Task'
+title: 'Common SwiftUI pitfalls - onChange modifier + Task'
 author: 'Clive Liu'
 layout: post
 tags: [Swift, SwiftUI, Concurrency]

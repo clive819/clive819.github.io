@@ -2,7 +2,7 @@
 title: 'Developing an iOS app in Swift Package'
 author: 'Clive Liu'
 layout: post
-tags: [Xcode, Swift Package Manager (SPM)]
+tags: [Xcode, Swift Package Manager (SPM), Swift]
 ---
 
 > Please note that this feature is likely experimental, as Apple has not released official documentation for it.
