@@ -208,7 +208,7 @@ crackme[0x100003cac] <+576>: 0xf85283a9   ldur   x9, [x29, #-0xd8]
 
 There are multiple strategies to tackle this, like adjusting `w0` to a non-zero value, converting the `tbz` instruction into a no-operation (`nop`), or directly jumping to the desired location. Your creativity is the only limit. For simplicity, we will opt for the `nop` operation to transform that line into a no-op.
 
-Given that lldb employs a big-endian system, we must reverse-read the instruction code by 2 bytes, shifting `36000600` to `00060036`.
+Given that lldb employs a big-endian system, we must reverse-read the instruction code by bytes, shifting `36000600` to `00060036`.
 
 Next, we need to reference the [ARM documentation](https://developer.arm.com/documentation/ddi0602/2021-12/Base-Instructions/NOP--No-Operation-) to obtain the instruction code for `nop`, which is `11010101000000110010000000011111`, corresponding to `D503201F` in hexadecimal. Following the big-endian to little-endian conversion, `D503201F` becomes `1F2003D5`.
 
