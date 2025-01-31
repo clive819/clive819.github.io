@@ -2,7 +2,7 @@
 title: 'Reverse engineering macOS app 101'
 author: 'Clive Liu'
 layout: post
-tags: [Swift, macOS, Reverse Engineering]
+tags: [macOS, Reverse Engineering]
 ---
 
 ## Disclaimer
