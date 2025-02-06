@@ -7,7 +7,7 @@ tags: [Swift, Concurrency]
 
 ## Intro
 
-Swift Concurrency is a powerful framework introduced in Swift 5.5 that simplifies writing asynchronous and concurrent code, making it safer, more readable, and easier to maintain. Built around modern concepts like `async`/`await` and structured concurrency, Swift Concurrency allows developers to express asynchronous operations in a natural, linear style while ensuring thread safety and eliminating common pitfalls like callback hell or race conditions. By leveraging key features such as `Task`, `Actor`, and the cooperative scheduling model, Swift Concurrency provides developers with a robust and scalable approach to building responsive and efficient applications across Apple platforms.
+Swift Concurrency is a powerful framework introduced in Swift 5.5 that simplifies writing asynchronous and concurrent code, making it safer, more readable, and easier to maintain. Built around modern concepts like `async`/`await` and structured concurrency, Swift Concurrency allows developers to express asynchronous operations in a natural, linear style while ensuring thread safety and eliminating common pitfalls like callback hell or race conditions. By leveraging key features such as `Task`, `Actor`, and the cooperative scheduling model, Swift Concurrency provides developers with a robust and scalable approach to building responsive and efficient applications.
 
 ## Sendable
 
@@ -67,7 +67,6 @@ Unstructured tasks are not tied to a parent task, so errors and cancellations mu
 ### Best practices
 
 - Prefer structured concurrency over unstructured concurrency.
-- Use the `.task(id:)` modifier in SwiftUI for lifecycle-aware task creation.
 - Use `async let` for fixed numbers of concurrent operations and task group for dynamic workloads.
 
 ## Actor
