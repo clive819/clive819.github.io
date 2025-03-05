@@ -245,3 +245,7 @@ extension Job where Action: ~Copyable {
 | **Generic constraints** | Limited | Supports noncopyable generics | 
 
 Noncopyable types introduce a new dimension of **ownership and correctness** to Swift. They solve problems that reference types cannot handle effectively, especially in scenarios involving **value semantics**, **resource management**, and **ownership enforcement**. By leveraging noncopyable types, you can write safer, more efficient, and more predictable code.
+
+---
+
+For more details, check out the [WWDC24 session on noncopyable types](https://developer.apple.com/videos/play/wwdc2024/10170).
