@@ -7,7 +7,7 @@ tags: [Swift, SwiftUI, Animation]
 
 SwiftUI's `sheet` modifier is a fantastic tool, but it comes with limitations: it doesn’t automatically resize to fit its content. Apple introduced the `.presentationSizing(.fitted)` modifier in iOS 18 to address this issue. However, let’s be realistic—convincing your Product Manager to set the minimum deployment target to iOS 18 might not be an easy sell. Sure, you could conditionally enable this feature for users on iOS 18+, but what about those on older OS versions?  
 
-In this article, we’ll explore how to create an auto-sized-to-fit sheet that works on iOS 16.
+In this article, we’ll explore how to create an auto-sized-to-fit sheet that works on iOS 17.
 
 ## Basic Code Structure
 
