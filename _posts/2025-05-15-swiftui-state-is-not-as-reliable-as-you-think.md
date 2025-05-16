@@ -86,4 +86,4 @@ A workaround suggested by a DTS engineer involves lifting state to the parent vi
 
 This behavior makes it difficult to write clean, reusable SwiftUI APIs. I strongly urge the SwiftUI team to reevaluate how state is handled within lazy containers. The current behavior is inconsistent with SwiftUI's own documentation and WWDC presentations, and it introduces significant friction for developers building scalable, modular UIs.
 
-https://forums.swift.org/t/pitch-swiftui-stabilize-state-in-lazy-containers/79926
+[https://forums.swift.org/t/pitch-swiftui-stabilize-state-in-lazy-containers/79926](https://forums.swift.org/t/pitch-swiftui-stabilize-state-in-lazy-containers/79926)
