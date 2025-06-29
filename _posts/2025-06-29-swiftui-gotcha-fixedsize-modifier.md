@@ -1,5 +1,5 @@
 ---
-title: 'SwiftUI Text `fixedSize` Gotcha'
+title: 'SwiftUI Gotcha - fixedSize Modifier'
 author: 'Clive Liu'
 layout: post
 tags: [Swift, SwiftUI]
