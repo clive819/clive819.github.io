@@ -11,7 +11,7 @@ When building user interfaces, it’s common to show or hide views based on stat
 2. The `.hidden()` modifier
 3. The `.opacity(_:)` modifier
 
-## `if-else`
+## if-else
 
 ```swift
 if condition {
@@ -32,7 +32,7 @@ Notes:
 
 Use this approach when view state preservation or layout consistency are not required.
 
-## `.hidden()` Modifier
+## The .hidden() Modifier
 
 If you need to preserve layout, you can do this:
 
@@ -69,7 +69,7 @@ fileprivate struct HiddenModifier: ViewModifier {
 }
 ```
 
-## `.opacity(_:)` Modifier
+## The .opacity(_:) Modifier
 
 But a simpler solution is to toggle opacity:
 
